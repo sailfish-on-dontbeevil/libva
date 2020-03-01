@@ -1,7 +1,5 @@
-#global pre_release .pre1-20180601
-
 Name:		libva
-Version:	1.8.3
+Version:	2.6.1
 Release:	1%{?dist}
 Summary:	Video Acceleration (VA) API for Linux
 License:	MIT
@@ -11,12 +9,8 @@ Source0:	%{url}/archive/%{version}%{?pre_release}/%{name}-%{version}%{?pre_relea
 BuildRequires:	libtool
 
 BuildRequires:	libudev-devel
-#BuildRequires:	libXext-devel
-#BuildRequires:	libXfixes-devel
 BuildRequires:	libdrm-devel
 BuildRequires:  libpciaccess-devel
-#BuildRequires:	mesa-llvmpipe-libEGL-devel
-#BuildRequires:	mesa-llvmpipe-libGL-devel
 BuildRequires:	mesa-llvmpipe-libGLESv1-devel
 BuildRequires:  mesa-llvmpipe-libGLESv2-devel
 BuildRequires:  wayland-devel
